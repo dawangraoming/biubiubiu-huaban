@@ -1,14 +1,14 @@
 {
-  "name": "biubiubiuhuaban-server",
+  "name": "biubiubiu-huaban",
   "version": "1.0.0",
   "description": "",
   "main": "main.js",
   "scripts": {
     "run": "node main.js",
     "electron": "electron .",
-    "build-win": "ELECTRON_MIRROR=https://npm.taobao.org/mirrors/electron/ electron-packager . biubiubiu-huaban --platform=win32 --arch=x64"
+    "build-win": "set ELECTRON_MIRROR=https://npm.taobao.org/mirrors/electron/ && electron-packager . biubiubiu-huaban --platform=win32 --arch=x64"
   },
-  "author": "XueYangChu",
+  "author": "dawangraoming",
   "license": "MIT",
   "dependencies": {
     "koa": "^2.3.0",
